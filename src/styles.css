@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 14px;
+}
+.titleLabel {
+    font-size: 19px !important;
+    font-weight: 400;
+    color: #3B3B3B;
+    line-height: 18.75px;
+    font-weight: bold;
+}
+
+.subTitleLabel {
+    font-size: 17px !important;
+    font-weight: 500;
+    color: #898989;
+    line-height: 14.06px;
+}
+
+.descriptionLabel {
+    size: 14px;
+    font-weight: 400;
+    color: #3B3B3B;
+    line-height: 14.06px;
+}
+
+
+body{
+    background-color: #fffdfd;
+}
+
+.container{
+    padding: 1em;
+}
+

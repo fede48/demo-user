@@ -1,0 +1,22 @@
+table {
+ width: 100%;
+}
+   
+table.mat-mdc-table{
+  background-color: #e5e3e3;
+}
+
+tr.mat-mdc-row {
+    cursor: pointer;
+}
+tr.mat-mdc-row:hover {
+    background-color: #f1f1f1;
+}
+
+th.mat-mdc-header-cell{
+    font-weight: bold;
+}
+
+img {
+  border-radius: 50%;
+}

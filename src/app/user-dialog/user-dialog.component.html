@@ -1,0 +1,11 @@
+<div class="container">
+    <h1 mat-dialog-title align="center">User Details</h1>
+    <div mat-dialog-content>
+        <p><strong>First Name:</strong> {{ data.first_name }}</p>
+        <p><strong>Last Name:</strong> {{ data.last_name }}</p>
+        <p><strong>Email:</strong> {{ data.email }}</p>
+    </div>
+    <div mat-dialog-actions align="end">
+        <button mat-button style="border: solid 1px" (click)="close()">Close</button>
+    </div>
+</div>
